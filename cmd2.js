@@ -66,18 +66,8 @@ if(ispresent == true){
     contentArr =  tempArr ;
 }
 console.log("<---------------------->")
-// console.log(contentArr.join("\n"));
 
-// - n
 
-// let isnpresent = optionArr.includes("-n");
-// if(isnpresent == true){
-//     for(let i = 0 ;i< contentArr;i++){
-//         // contentArr[i]=`${i+1} ${contentArr[i]}`;
-//         contentArr[i] = `${i + 1} ${contentArr[i]} `;
-//     }
-// }
-// console.log(contentArr);
 let isnPresent = optionArr.includes("-n");
 if (isnPresent == true) {
     for (let i = 0; i < contentArr.length; i++) {
